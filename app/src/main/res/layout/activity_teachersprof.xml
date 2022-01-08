@@ -6,4 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".Teachersprof">
 
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/leftarrow" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@+id/iv3"
+            android:padding="15dp"
+            android:src="@drawable/search"
+            app:layout_constraintRight_toLeftOf="@id/iv1" />
+
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:padding="15dp"
+            android:src="@drawable/add" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rl1">
+    </androidx.recyclerview.widget.RecyclerView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,8 +17,14 @@
         <entry key="..\:/Users/anshu/Desktop/attendance/app/src/main/res/drawable/dashgredient.xml" value="0.2611111111111111" />
         <entry key="..\:/Users/anshu/Desktop/attendance/app/src/main/res/drawable/dashstudent.xml" value="0.2611111111111111" />
         <entry key="..\:/Users/anshu/Desktop/attendance/app/src/main/res/drawable/dashteacher.xml" value="0.2611111111111111" />
+        <entry key="..\:/Users/anshu/Desktop/attendance/app/src/main/res/drawable/teacherprofcard.xml" value="0.25555555555555554" />
         <entry key="..\:/Users/anshu/Desktop/attendance/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/anshu/Desktop/attendance/app/src/main/res/layout/activity_splashscreen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/anshu/Desktop/attendance/app/src/main/res/layout/activity_studentsprof.xml" value="0.25905797101449274" />
+        <entry key="..\:/Users/anshu/Desktop/attendance/app/src/main/res/layout/activity_teachersprof.xml" value="0.264" />
+        <entry key="..\:/Users/anshu/Desktop/attendance/app/src/main/res/layout/activity_tmakedatabase.xml" value="0.25905797101449274" />
         <entry key="..\:/Users/anshu/Desktop/attendance/app/src/main/res/layout/otp.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/anshu/Desktop/attendance/app/src/main/res/layout/tcardmodel.xml" value="0.25905797101449274" />
       </map>
     </option>
   </component>

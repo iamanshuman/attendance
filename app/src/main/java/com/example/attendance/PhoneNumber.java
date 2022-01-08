@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 public class PhoneNumber extends AppCompatActivity {
 
     EditText editText;
-    TextView aCountryCode, aGetOtpBtn;
+    TextView aGetOtpBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,6 @@ public class PhoneNumber extends AppCompatActivity {
         setContentView(R.layout.phonenumber);
 
         editText = findViewById(R.id.number);
-        aCountryCode = findViewById(R.id.countrycode);
         aGetOtpBtn = findViewById(R.id.getotpbtn);
 
         aGetOtpBtn.setOnClickListener(new View.OnClickListener() {
@@ -39,7 +38,6 @@ public class PhoneNumber extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), Otp.class);
                 intent.putExtra("mobile_number", editText.getText().toString().trim());
                 startActivity(intent);
-                finish();
             }
         });
 

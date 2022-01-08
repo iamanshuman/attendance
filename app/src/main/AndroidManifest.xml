@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Attendance">
         <activity
+            android:name=".tmakedatabase"
+            android:exported="false" />
+        <activity
             android:name=".Teachersprof"
             android:exported="false" />
         <activity
